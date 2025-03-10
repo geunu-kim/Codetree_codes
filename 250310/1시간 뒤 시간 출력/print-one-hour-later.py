@@ -1,8 +1,6 @@
 T = input().split(":")
-
-h = int(T[0])
-H = h+1
+H = int(T[0])
+h = H + 1
 m = int(T[1])
 
-print(H":"m)
-
+print(h,":",m, sep="")
