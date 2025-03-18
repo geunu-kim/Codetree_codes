@@ -41,7 +41,7 @@ elif Ca == "N" and Cb < 37 :
 
 
 
-if Aa and Ba and Ca != "A" :
+if Aa != "A" and Ba != "A" and Ca != "A" :
     print("N")
 elif (Aa == "A" and Ba != "A" and Ca != "A") or (Ba == "A" and Aa != "A" and Ca != "A") or (Ca == "A" and Ba != "A" and Aa != "A") :
     print("N")
