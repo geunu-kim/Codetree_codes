@@ -18,7 +18,7 @@ elif Aa == "Y" and Ab < 37 :
     Aa = "C"
 elif Aa == "N" and Ab >= 37 :
     Aa = "B"
-else :
+elif Aa == "N" and Ab < 37 :
     Aa = "D"
 
 if Ba == "Y" and Bb >= 37 :
@@ -27,7 +27,7 @@ elif Ba == "Y" and Bb < 37 :
     Ba = "C"
 elif Ba == "N" and Bb >= 37 :
     Ba = "B"
-else :
+elif Ba == "N" and Bb < 37 :
     Ba = "D"
 
 if Ca == "Y" and Cb >= 37 :
@@ -36,7 +36,7 @@ elif Ca == "Y" and Cb < 37 :
     Ca = "C"
 elif Ca == "N" and Cb >= 37 :
     Ca = "B"
-else :
+elif Ca == "N" and Cb < 37 :
     Ca = "D"
 
 
