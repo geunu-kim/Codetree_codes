@@ -5,5 +5,6 @@ if a == 5 :
 elif a % 2 == 0 :
     print("B")
 else :
-    done
+    end
+
 
