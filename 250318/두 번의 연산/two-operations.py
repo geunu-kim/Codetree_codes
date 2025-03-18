@@ -9,5 +9,6 @@ if A % 2 == 1 :
     if A % 3 == 0 :
         A /= 3
         print(int(A))
-    else :
-        print(int(A))
+
+
+
