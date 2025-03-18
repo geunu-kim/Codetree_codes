@@ -7,6 +7,7 @@ if A % 2 == 1 :
         print(int(A))
     else :
         print(int(A))
+
 else :
     A /= 3
     print(int(A))
