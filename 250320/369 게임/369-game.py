@@ -1,23 +1,11 @@
 N = int(input())
-a = 3 ; b = 6 ; c = 9
 
 for _ in range (1, N+1) :
-    if _ == a :
+    if _ % 3 == 0 :
+        print(0, end=" ")    
+    elif _ % 10 == 3 or _ % 10 == 6 or _ % 10 == 9 :
         print(0, end=" ")
-        a += 10
-    elif _ == b :
-        print(0, end=" ")
-        b += 10
-    elif _ == c :
-        print(0, end=" ")
-        c += 10
-    elif _ >= 30 and _ < 40 :
-        print(0, end=" ")
-    elif _ >= 60 and _ < 70 :
-        print(0, end=" ")
-    elif _ >= 90 and _ < 100 :
-        print(0, end=" ")
-    elif _ % 3 == 0 :
+    elif _ // 10 == 3 or _ // 10 == 6 or _ // 10 == 9 :
         print(0, end=" ")
     else :
-        print(_, end=" ")
+        print(_,end=" ")
