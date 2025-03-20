@@ -11,6 +11,12 @@ for _ in range (1, N+1) :
     elif _ == c :
         print(0, end=" ")
         c += 10
+    elif _ >= 30 and _ < 40 :
+        print(0, end=" ")
+    elif _ >= 60 and _ < 70 :
+        print(0, end=" ")
+    elif _ >= 90 and _ < 100 :
+        print(0, end=" ")
     elif _ % 3 == 0 :
         print(0, end=" ")
     else :
