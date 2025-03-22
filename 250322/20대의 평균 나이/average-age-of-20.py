@@ -7,5 +7,7 @@ while True :
         prod_2 += 1
     else :
         ave = prod_1 / prod_2
-        print(f"{ave}:.2f")
+        print(f"{ave:.2f}")
+        break
+
 
