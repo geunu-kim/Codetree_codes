@@ -9,6 +9,7 @@ for elem in arr_list :
         print(f"{total} {average:.1f}")
         exit()
 
+average = total / cnt
 print(f"{total} {average:.1f}")
 
 
