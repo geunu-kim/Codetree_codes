@@ -3,7 +3,7 @@ a = list(map(int, input().split()))
 
 # Please write your code here.
 b = []
-c = 0 ; d = 0
+c = a[0] ; d = a[0]
 
 for i in range (n) :
     if c <= a[i] :
