@@ -2,13 +2,13 @@ N, M = map(int, input().split())
 
 arr_2d_1 = [
     list(map(int, input().split()))
-    for _ in range (N)
+    for _ in range (M)
 ]
 
 
 arr_2d_2 = [
     list(map(int, input().split()))
-    for _ in range (N)
+    for _ in range (M)
 ]
 
 
