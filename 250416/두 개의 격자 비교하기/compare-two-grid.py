@@ -2,19 +2,19 @@ N, M = map(int, input().split())
 
 arr_2d_1 = [
     list(map(int, input().split()))
-    for _ in range (M)
+    for _ in range (N)
 ]
 
 
 arr_2d_2 = [
     list(map(int, input().split()))
-    for _ in range (M)
+    for _ in range (N)
 ]
 
 
 arr_2d_3 = [
-    [0 for i in range (N)]
-    for j in range (M)
+    [0 for i in range (M)]
+    for j in range (N)
 ]
 
 
