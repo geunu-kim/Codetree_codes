@@ -18,7 +18,7 @@ arr_2d_3 = [
 ]
 
 
-for i in range (N)) :
+for i in range (N) :
     for j in range (M) :
         if arr_2d_1[i][j] == arr_2d_2[i][j] :
             arr_2d_3[i][j] = 0
