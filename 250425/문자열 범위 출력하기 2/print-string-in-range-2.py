@@ -1,8 +1,10 @@
 a = input()
 b = int(input())
-c = list(a)
-c.reverse()
 
-for i in range (b) :
-    print(c[i],end="")
+if len(a) >= b :
+    for i in range (b) :
+        print(a[len(a)-1-i],end="")
+else :
+    for i in range (len(a)) :
+        print(a[len(a)-1-i],end="")
 
