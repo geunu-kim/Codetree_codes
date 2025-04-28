@@ -6,4 +6,5 @@ while True :
         b = list(a)
         b.reverse()
         for elem in b :
-            print(elem, end="")
+            print(elem,end="")
+        print()
