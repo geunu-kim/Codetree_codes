@@ -1,11 +1,19 @@
 a, b = map(int, input().split())
 
 # Please write your code here.
-cnt = 0
-
 def condition(n) :
-    if (n // 10) == 3 or (n // 10) == 6 or (n // 10) == 9 or (n % 10) == 3 or (n % 10) == 6 or (n % 10) == 9 or ((n // 10) + (n % 10)) % 3 == 0 :
+    tot = 0
+    n_list = list(str(n))
+    for j in range (len(n_list)) :
+        if int(n_list[j]) in [3, 6, 9] :
+            tot += int(n_list[j])
+            return True
+        else :
+            tot += int(n_list[j])
+    if tot % 3 == 0 :
         return True
+
+cnt = 0 
 
 for i in range (a,b+1,1) :
     if condition(i) == True :
