@@ -13,11 +13,13 @@ def date(x,y) :
             return True
         else :
             return False
-    else :
+    elif x == 4 or x == 6 or x == 9 or x == 11 :
         if y >= 1 and y <= 30 :
             return True
         else :
             return False
+    else :
+        return False
 
 
 
