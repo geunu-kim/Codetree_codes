@@ -4,7 +4,7 @@ b = list(map(int, input().split()))
 
 # Please write your code here.
 def part(x,y) :
-    if x >= y :
+    if x > y :
         for i in range (x) :
             for n in range (y) :
                 if a[i+n] == b[n] :      
@@ -14,6 +14,16 @@ def part(x,y) :
                         continue
                 else :
                     break
+        return False
+    elif x == y :
+        for j in range (x) :
+            if a[j] == b[j] :
+                if j == (x-1) :
+                    return True
+                else :
+                    continue
+            else :
+                break
         return False
     else :
         return False
