@@ -6,7 +6,7 @@ tot = 0
 def f(x) :
     global tot
     if x % 2 == 0 :
-        x /= 2
+        x //= 2
         tot += 1
         if x == 1 :
             return tot
