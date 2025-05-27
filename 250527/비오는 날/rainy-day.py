@@ -17,9 +17,9 @@ class Future :
         self.dy = b
         self.w = c
 
-for elem in weather :
-    if elem == "Rain" :
-        cnt.append(weather.index(elem))
+for i in range (len(weather)) :
+    if weather[i] == "Rain" :
+        cnt.append(i)
     else :
         continue
 
