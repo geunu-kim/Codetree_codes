@@ -11,7 +11,7 @@ class Next :
 Next1 = Next()
 print("user",Next1.id,"lv",Next1.lv)
 
-Next2 = Next("hello","28")
+Next2 = Next(user2_id,user2_level)
 print("user",Next2.id,"lv",Next2.lv)
 
 
