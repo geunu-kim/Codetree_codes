@@ -19,7 +19,9 @@ class Student :
         self.english = c
         self.math = d
 
-Students = [Student(name[i], korean[i], english[i], math[i]) for i in range (n)]
+Students = [
+    Student(name[i], korean[i], english[i], math[i]) for i in range (n)
+]
 
 Students.sort(key = lambda x : (-x.korean, -x.english, -x.math))
 
