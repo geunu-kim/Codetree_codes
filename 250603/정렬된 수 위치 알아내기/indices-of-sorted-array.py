@@ -15,5 +15,6 @@ for elem in sequence_3 :
         if elem == item[1] :
             print(item[0], end=" ")
             del sequence_2[i]
+            break
         else :
             continue
