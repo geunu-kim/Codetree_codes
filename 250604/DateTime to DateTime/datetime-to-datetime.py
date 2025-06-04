@@ -4,7 +4,7 @@ tot = 0 ; b2, c2 = 0, 0
 if a == 11 :
     if a < 11 :
         print(-1)
-    elif a == 11 and b < 11 and c < 11 :
+    elif a == 11 and b < 11 :
         print(-1)
     elif a == 11 and b == 11 and c == 11 :
         print(0)
