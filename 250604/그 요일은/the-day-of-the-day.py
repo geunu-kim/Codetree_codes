@@ -9,34 +9,22 @@ B = day.index(A)
 for i in range (m1) :
     tot_1 += months[i]
 tot_1 += d1
+print(tot_1)
 
 for i in range (m2) :
     tot_2 += months[i]
 tot_2 += d2
+print(tot_2)
 
-if tot_2 >= tot_1 :
-    t = tot_2 - tot_1
-    while True :
-        t = t - 7
-        tot += 1
-        if t < 7 :
-            if t == B :
-                tot += 1
-                print(tot)
-                break
-            else :
-                print(tot)
-                break
-else :
-    t = tot_1 - tot_2
-    while True :
-        t = t - 7
-        tot += 1
-        if t < 7 :
-            if t == B :
-                tot += 1
-                print(tot)
-                break
-            else :
-                print(tot)
-                break
+t = tot_2 - tot_1
+while True :
+    t = t - 7
+    tot += 1
+    if t < 7 :
+        if t == B :
+            tot += 1
+            print(tot)
+            break
+        else :
+            print(tot)
+            break
