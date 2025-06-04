@@ -16,8 +16,8 @@ tot_2 += d2
 
 t = tot_2 - tot_1
 
-for i in range(1, t + 1):  # 시작일부터 끝일까지 포함
-    if (B + i) % 7 == 0:
+for i in range(t+1) :
+    if i % 7 == 0:
         tot += 1
 
 print(tot)
