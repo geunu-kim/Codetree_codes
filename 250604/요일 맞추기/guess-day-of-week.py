@@ -14,6 +14,7 @@ tot_2 += d2
 
 if tot_2 >= tot_1 :
     t = tot_2 - tot_1
+    t %= 7
     print(day[t])
 else :
     t = tot_1 - tot_2
