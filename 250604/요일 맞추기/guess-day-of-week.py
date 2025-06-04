@@ -8,7 +8,7 @@ for i in range (m1) :
     tot_1 += months[m1]
 tot_1 += d1
 
-for i in range (m1) :
+for i in range (m2) :
     tot_2 += months[m2]
 tot_2 += d2
 
