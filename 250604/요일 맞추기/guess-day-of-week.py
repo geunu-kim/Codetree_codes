@@ -18,5 +18,5 @@ if tot_2 >= tot_1 :
     print(day[t])
 else :
     t = tot_1 - tot_2
-    t %= 8
+    t %= 7
     print(day[-t])
