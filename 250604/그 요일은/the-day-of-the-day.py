@@ -14,8 +14,8 @@ for i in range (m2) :
     tot_2 += months[i]
 tot_2 += d2
 
-t = tot_2 - tot_1
-
-tot = (t // 7) + 1
+for i in range(tot_2 - tot_1 + 1):  # 시작일 포함
+    if i % 7 == B:
+        tot += 1
 
 print(tot)
