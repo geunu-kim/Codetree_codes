@@ -6,8 +6,7 @@ for start , end in commands :
     if end == n :
         for i in range (start , end) :
             arr[i] += 1
-        arr[end] += 1
-        
+
     for i in range (start , end + 1) :
         arr[i] += 1
 
