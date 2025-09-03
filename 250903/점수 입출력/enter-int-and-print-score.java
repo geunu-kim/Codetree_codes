@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
-        String a = sc.next();
+        int a = sc.nextInt();
         System.out.print("Your score is ");
-        System.out.print("143 ");
-        System.out.print("point.");
+        System.out.print(a);
+        System.out.print(" point.");
     }
 }
