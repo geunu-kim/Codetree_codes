@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         char a = sc.next().charAt(0);
         for (int i = 0; i < 8; i++){
-            System.out.print('G');
+            System.out.print(a);
         }
     }
 }
